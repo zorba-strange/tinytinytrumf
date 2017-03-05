@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-import tweepy, time, sys, requests, threading
+import tweepy, requests 
 from KEYS_TOKENS import *
 import get_image
 

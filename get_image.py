@@ -12,7 +12,7 @@ def get_random_url():
     response = requests.get(
             "https://www.reddit.com/r/TinyTrumps/random",
             auth=client_auth,
-            headers=headers,
+            headers=headers
             )
     return response
 
